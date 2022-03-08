@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="hack">
+      <UniqueIdentifier>{4696f151-0218-4ca3-b778-5a46b67fe284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook">
+      <UniqueIdentifier>{fd3076c1-8263-4840-ba95-d344626517e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{a80e4908-23e9-44ca-9df8-905d4e1e7e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{1a9af52c-d999-4923-b5e8-395e0687b132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{5dc15c9b-7cb5-4e78-bf1e-0834219a7e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{d3fac6da-aef8-42d6-aa11-0a8eb2b1e4fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api">
+      <UniqueIdentifier>{8e318949-0bf4-43b2-b616-d317d7305924}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>hack</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="netvars.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="module.hpp">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="pe.hpp">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.hpp">
+      <Filter>hack</Filter>
+    </ClInclude>
+    <ClInclude Include="cmove.hpp">
+      <Filter>hack</Filter>
+    </ClInclude>
+    <ClInclude Include="gloves.hpp">
+      <Filter>hack</Filter>
+    </ClInclude>
+    <ClInclude Include="glow.hpp">
+      <Filter>hack</Filter>
+    </ClInclude>
+    <ClInclude Include="skins.hpp">
+      <Filter>hack</Filter>
+    </ClInclude>
+    <ClInclude Include="visuals.hpp">
+      <Filter>hack</Filter>
+    </ClInclude>
+    <ClInclude Include="allocmemory.hpp">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="framestage.hpp">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="paintraverse.hpp">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="engineclient.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="enginetrace.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="entities.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="modelsinfo.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="recvprop.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="surface.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="classids.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="font.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="math.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="netvars.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="pattern.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="render.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="variables.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.hpp">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking.hpp">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="include.hpp">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="iniwriter.hpp">
+      <Filter>main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

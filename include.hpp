@@ -1,0 +1,35 @@
+
+#include <ShlObj.h>
+#include <intrin.h>
+#include <vector>
+#include <algorithm>
+#include <string>
+
+#include "pe.hpp"
+#include "module.hpp"
+#include "pattern.hpp"
+#include "vector.hpp"
+#include "iniwriter.hpp"
+#include "math.hpp"
+#include "recvprop.hpp"
+#include "netvars.hpp"
+#include "offsets.hpp"
+#include "weapon.hpp"
+#include "entities.hpp"
+#include "surface.hpp"
+#include "engineclient.hpp"
+#include "enginetrace.hpp"
+#include "modelsinfo.hpp"
+#include "interface.hpp"
+#include "classids.hpp"
+#include "render.hpp"
+#include "font.hpp"
+#include "mouse.hpp"
+#include "menu.hpp"
+#include "variables.hpp"
+#include "visuals.hpp"
+#include "aimbot.hpp"
+#include "draw.hpp"
+#include "glow.hpp"
+#include "cmove.hpp"
+#include "hooking.hpp"
